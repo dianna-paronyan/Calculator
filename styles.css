@@ -1,0 +1,46 @@
+body{
+    
+    background: linear-gradient(to right, #FF8C9F, #FFA8BB, #FFB7B1, #FFBEA7, #FFD0A1);
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+.main{
+
+    margin-left: 40%;
+    margin-top: 10%;
+    
+}
+.textview{
+
+    width: 244px;
+    height: 40px;
+    margin: 3px;
+    padding: 5px;
+    font-size: 20px;
+}
+.button{
+
+    width: 60px;
+    height: 60px;
+    margin: 2px;
+    font-size: 20px;
+    cursor: pointer;
+}
+.clr, .reduce, .devide{
+
+    background-color: #818181;
+    border: none;
+}
+
+.multiply, .plus, .minus, .equal{
+
+    background-color: #e7890d;
+    border: none;
+}
+.one, .two, .three, .four, .five, .six, .seven, .eight, .nine, .zero, .point{
+
+    background-color: #4B4B49;
+    border: none;
+}
